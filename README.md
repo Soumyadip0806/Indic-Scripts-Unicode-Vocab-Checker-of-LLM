@@ -7,7 +7,7 @@ Here's your **README.md** without any code snippets, making it clean and profess
 🚀 **Analyze the Unicode coverage of 13 Indic language scripts in any model's vocabulary!**  
 
 ## 📌 **Overview**  
-`IndicUnicodeVocabChecker` is a tool designed to evaluate how well a language model supports 13 Indic scripts by analyzing its vocabulary. It works with transformer-based models such as **LLaMA, XLM-R, MuRIL, mBERT, RemBERT**, and more.  
+This pipeline is designed to evaluate how well a language model supports 13 Indic scripts by analyzing its vocabulary. It works with transformer-based models such as **LLaMA, Phi, Gemma, IndicTrans, IndicBART, Lamini, T5, MuRIL, mBERT, etc**, and more.  
 
 ### 🔍 **Key Features**  
 ✅ Unicode dataset covering 13 Indic scripts.  
@@ -18,19 +18,20 @@ Here's your **README.md** without any code snippets, making it clean and profess
 
 ## 🏗 **Supported Scripts**  
 This tool evaluates Unicode support for the following Indic scripts:  
-- **Devanagari** (Hindi, Marathi, Sanskrit, etc.)  
-- **Bengali**  
-- **Gurmukhi** (Punjabi)  
-- **Gujarati**  
+
+- **Bangla** 
+- **Perso-Arabic**  
+- **Gurmukhi**  
+- **Gujarati** 
+- **Devanagari** (Indo-Aryan)  
+- **Devanagari** (Sino-Tibetan)   
 - **Odia**  
 - **Tamil**  
 - **Telugu**  
 - **Kannada**  
-- **Malayalam**  
-- **Sinhala**  
-- **Assamese**  
-- **Urdu**  
-- **Manipuri (Meitei Mayek)**  
+- **Malayalam**   
+- **Ol-Chiki**  
+- **Meitei**  
 
 ## 📊 **What This Tool Provides**  
 - **Total vocabulary size of the model.**  
@@ -49,6 +50,3 @@ This project is licensed under the **MIT License**.
 ## 🤝 **Contributions**  
 We welcome contributions! Feel free to raise issues, suggest improvements, or submit pull requests to enhance this repository.  
 
----
-
-This version keeps it concise and professional. Let me know if you want any refinements! 🚀
